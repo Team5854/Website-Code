@@ -1,9 +1,0 @@
-iframe.UNCA-Video {
-height: 60%;
-}
-
-@media screen and (max-width: 900px) {
-iframe.UNCA-Video {
-height: 40%;
-}
-}
