@@ -1,0 +1,28 @@
+<div id="sideviewmenu">
+
+<ul class="menulinks">
+<li><a href="index.html">Home</a></li>
+
+<li><a href="Media/Social.html">Media</a></li> <ul>
+  <li><a href="Media/Photos.html">Photos</a></li>
+  <li><a href="Media/Videos.html">Videos</a></li>
+  <li><a href="Media/Social.html">Social Media</a></li>
+</ul>
+
+<li><a href="The-Team/Members.html">The Team</a></li><ul>
+<li><a href="The-Team/Subteams.html">Subteams</a></li>
+<li><a href="The-Team/Members.html">Members</a></li>
+</ul>
+<li><a href="The-Robot/2016.html">The Robot</a></li><ul>
+<li><a href="The-Robot/2016.html">The 2016 Bot</a></li>
+</ul>
+
+<li><a href="Donations/Donations.html">Donations</a></li><ul>
+<li><a href="Donations/Donations.html">Donate</a></li>
+<li><a href="Donations/Sponsors.html">Our Sponsors</a></li>
+</ul>
+
+<li><a href="Contact-Us/Contact.html">Contact Us</a></li>
+</ul>
+
+</div>

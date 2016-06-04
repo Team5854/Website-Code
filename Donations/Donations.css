@@ -1,0 +1,25 @@
+input.DonateButton {
+position:relative;
+text-decoration:none;
+width: 300px;
+height: 70px;
+display: inline-block;
+margin-bottom:0px;
+margin-top:50px;
+margin-left:0%;
+margin-right:0px;
+border:none;
+padding:15px;
+border-radius:10px;
+background-color: Red;
+color: black;
+font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+input.DonateButton {
+font-size: 13px;
+width: 200px;
+height: 50px;
+}
+}
