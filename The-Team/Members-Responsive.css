@@ -1,0 +1,25 @@
+div.one-third {
+width: 45%
+}
+
+div.one-third-second {
+margin-right: 5%
+}
+
+div.one-third-last {
+margin-right: 5%;
+}
+p.Member-name {
+Font-Size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+div.mobile-collapse {
+width: auto;
+margin-right: 0px;
+}
+p.Member-name {
+Font-Size: 15px;
+}
+}

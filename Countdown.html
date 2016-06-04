@@ -1,0 +1,107 @@
+<html>
+<head>
+	<!-- Meta Data Code (Start)-->
+	<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="viewport" content="width=device-width">
+	<!-- Meta Data Code (End)-->
+	
+	<!-- Title Bar Layout (Start)-->
+	<title>Team Glitch: Countdown</title>
+	<!-- Title Bar Layout (End)-->
+	
+	<!--  CSS Files (Start) -->
+		<!-- Local CSS File --> <link rel="stylesheet" href="Social.css">
+		<!-- Responsive CSS  <link rel="stylesheet" href="Social-responsive.css" media="screen and (max-width: 900px)">
+		<!-- Menu CSS File  --> <link rel="stylesheet" href="../CSS-Files/Menu.css">
+		<!--Canvas CSS File --> <link rel="stylesheet" href="../CSS-Files/Canvas.css">
+		<!-- Font CSS File  --> <link rel="stylesheet" href="../CSS-Files/Font.css">
+		<!-- Logos CSS File  --> <link rel="stylesheet" href="../CSS-Files/Logos.css">
+		<style>body {background-color: grey;}</style>
+	<!--CSS Files (End) -->
+	<!--Mobile Menu (start)-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		<link href='http://fonts.googleapis.com/css?family=Asul:400,700' rel='stylesheet' type='text/css'>
+
+		<link type="text/css" rel="stylesheet" href="../sideviewmenu.css" />
+
+		<script src="../Mobile Menu Code/sideviewmenu.js"></script>
+
+		<script>
+
+			jQuery(function(){ // on DOM Load
+				sideviewmenu({ // call sideviewmenu() function
+				menuid: 'sideviewmenu',
+				onopenclose:function(state){ // state is either "open" or "closed"
+					// custom code
+				}
+			})
+		})
+
+		</script>
+	<!--Mobile Menu (end)-->
+	
+	<!--Countdown (Start)-->
+		<link rel="stylesheet" href="Countdown/ddcubeclass.css" />
+		<link rel="stylesheet" href="Countdown/Countdown.css" />	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="Countdown/ddcubeclass.js"></script>
+		<script src="Countdown/ddcubecountdown.js"></script>
+		<script src="Countdown/Countdown.js"></script>
+	<!--Countdown (end)-->
+</head>
+<body>
+
+		<!--Facebook Feed (start)-->
+		<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+			</script>
+		<!--Facebook Feed (end)-->
+		<!-- Top Page Logos (Start)-->
+		<img class="FirstLogo" src="http://www.firstchesapeake.org/images/first-brand-new/FIRSTRobotics_IconVert_RGB.png"></img>
+		<center><img class="GifImage1" src="../Images/Team5854(1).gif"></center>
+		<!-- Top Page Logos (End)-->
+		
+		<!--Menu Code (Start)-->
+		<div class="menu">
+			<div class="dropdown">
+				<form action="../index.html">
+                    <input class="dropbtn" type="submit" value="<==  Back To The Main Site">
+                </form>
+			</div>			
+			
+		</div>
+		<!--Menu Code (End)-->
+		<!--Countdown (start)-->
+		
+			<!--Countdown (end)-->
+		
+		<!--Mobile Menu button--> <div class="toggler" onClick="sideviewmenu.toggle()"></div>
+		
+		<!--Main-Body/Canvas (Start)-->
+		<div class="Canvas">
+		
+			<!-- [Description of below] (Start)-->
+
+			<div class="Countdown">
+			<div id="futuredate"></div>
+			<div id="CountdownTitle" style="font-weight:bold; float:right">until FRC World Comptetition!</div>
+		</div>
+			</div>
+			
+		</div>
+			<!-- [Description of above] (End)-->
+			
+			
+		</div>
+		<!--Main-Body/Canvas (End)-->
+</body>
+</html>

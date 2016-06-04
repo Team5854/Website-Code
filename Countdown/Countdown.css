@@ -7,27 +7,40 @@
 }
 
 .Countdown{
-margin-top: -80px;
-float: right; 
-margin-right: 40px;
+float: left; 
+margin-left: 25%;
 }
-@media screen and (max-width: 1150px) {
-.Countdown{
-margin-top: -120px;
-float: right; 
-margin-right: 10px;
+#CountdownTitle {
+	font-size: 45px;
+}
+
+@media screen and (max-width: 1200px) {
+	.Countdown{
+margin-left: 10%;
+}
+}
+@media screen and (max-width: 1000px) {
+	.Countdown{
+margin-left: 0%;
 }
 }
 @media screen and (max-width: 900px) {
-.Countdown{
-margin-top: -70px;
-float: right; 
-margin-right: 10px;
+	.Countdown{
+margin-left: 25%;
 }
 }
-
-@media screen and (max-width: 790px) {
-.Countdown{
+@media screen and (max-width: 700px) {
+	.Countdown{
+margin-left: 15%;
+}
+}
+@media screen and (max-width: 600px) {
+	.Countdown{
+margin-left: 0%;
+}
+}
+@media screen and (max-width: 500px) {
+	.Countdown{
 display: none;
 }
 }

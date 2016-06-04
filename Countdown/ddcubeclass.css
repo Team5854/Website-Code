@@ -1,6 +1,6 @@
 
 .ddcubeclass {
-	font-size: 7px; /* adjust this value to scale the cube up or down */
+	font-size: 15px; /* adjust this value to scale the cube up or down */
 	width: 8em; /* cube width. Value redefined inside script */
 	height: 8em; /* cube height. Value redefined inside script */
 	text-align: center;
@@ -12,15 +12,10 @@
 	perspective: 50em;
 	float: right;
 }
-@media screen and (max-width: 1150px) {
-.ddcubeclass {
-	font-size: 6px;
-}
-}
-@media screen and (max-width: 1100px) {
-.ddcubeclass {
-	font-size: 5px;
-}
+@media screen and (max-width: 900px) {
+	.ddcubeclass {
+		font-size: 8px;
+	}
 }
 .ddcubeclass, .ddcubeclass *{
 	-webkit-box-sizing: border-box;

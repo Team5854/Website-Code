@@ -1,0 +1,16 @@
+.SlideShow-Full {
+	display: block;
+}
+
+.Media_SlideShow {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+.SlideShow-Full {
+	display: none;
+}
+.Media_SlideShow {
+	display: block;
+}
+}
