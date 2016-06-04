@@ -1,0 +1,863 @@
+.menu {
+float: center;
+margin-top: -30px;
+margin-left:10%;
+margin-bottom: 0px;
+}
+
+a {
+font-family: calibri;
+}
+p {
+font-family: calibri;
+}
+
+/***********
+First Button
+***********/
+/*
+Button Color change upon hover
+*/
+.dropdown:hover .dropbtn {
+background-color: grey;
+color: black;
+}
+/*
+Dropdown Content color change upon hover
+*/
+/*
+In a:hover, a is formatting for referring to the links inside of .dropdown-content and its easiest to format hover with a link
+*/
+.dropdown-content a:hover{
+background-color: grey;
+color: black;
+}
+/*
+border radius makes corners round
+*/
+.dropbtn {
+border:none;
+padding:15px;
+font-size:16px;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+
+}
+
+.dropdown-content {
+display:none;
+text-decoration:none;
+color:black;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+max-width: 160px;
+min-width:160px;
+position: absolute;
+ 
+}
+
+.dropdown-content a:hidden {
+background-color: lightgreen;
+text-decoration: none;
+
+}
+
+
+.dropdown {
+position:relative;
+text-decoration:none;
+max-width:160px;
+display: inline-block;
+margin-bottom:0px;
+margin-top:50px;
+margin-left:0%;
+margin-right:0px;
+}
+
+.dropdown-content a {
+background-color: white;
+text-decoration: none;
+color:black;
+display: block;
+padding: 15px;
+margin-bottom:0px;
+}
+
+/************
+Second Button
+************/
+
+.dropdown2:hover .dropbtn2 {
+background-color: grey;
+color: black;
+}
+/*
+Same exact coding here as before with a:hover and dropdown-content
+*/
+.dropdown-content2 a:hover{
+background-color: grey;
+color: black;
+}
+
+
+.dropbtn2 {
+border:none;
+padding:15px;
+font-size:16px;
+border-top-right-radius:10px;
+border-top-left-radius:10px;
+
+}
+
+.dropdown2:hover .dropdown-content2 {
+display: block;
+
+}
+
+.dropdown-content2 {
+display:none;
+text-decoration:none;
+color:black;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+max-width: 160px;
+min-width:160px;
+position: absolute;
+ 
+}
+
+.dropdown-content2 a:hidden {
+background-color: lightgreen;
+text-decoration: none;
+
+}
+
+.dropdown2 {
+position:relative;
+text-decoration:none;
+max-width:160px;
+display: inline-block;
+margin-bottom:0px;
+margin-top:50px;
+margin-left:0px;
+}
+
+.dropdown-content2 a {
+background-color: white;
+text-decoration: none;
+color:black;
+display: block;
+padding: 15px;
+margin-bottom:0px;
+ 
+}
+
+/***********
+Third Button
+***********/
+
+.dropdown3:hover .dropbtn3 {
+background-color: grey;
+color: black;
+}
+/*
+Same exact coding here as before with a:hover and dropdown-content
+*/
+.dropdown-content3 a:hover{
+background-color: grey;
+color: black;
+}
+
+
+.dropbtn3 {
+border:none;
+padding:15px;
+font-size:16px;
+border-top-right-radius:10px;
+border-top-left-radius:10px;
+}
+
+.dropdown3:hover .dropdown-content3 {
+display: block;
+
+}
+
+.dropdown-content3 {
+display:none;
+text-decoration:none;
+color:black;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+max-width: 160px;
+min-width:160px;
+position: absolute;
+ 
+}
+
+.dropdown-content3 a:hidden {
+background-color: lightgreen;
+text-decoration: none;
+
+}
+
+.dropdown3 {
+position:relative;
+text-decoration:none;
+max-width:190px;
+display: inline-block;
+margin-bottom:0px;
+margin-top:50px;
+margin-left:0px;
+}
+
+.dropdown-content3 a {
+background-color: white;
+text-decoration: none;
+color:black;
+display: block;
+padding: 15px;
+margin-bottom:0px;
+ 
+}
+/************
+Sixth Button
+************/
+
+.dropdown6:hover .dropbtn6 {
+background-color: grey;
+color: black;
+}
+/*
+Same exact coding here as before with a:hover and dropdown-content
+*/
+.dropdown-content6 a:hover{
+background-color: grey;
+color: black;
+}
+
+
+.dropbtn6 {
+border:none;
+padding:15px;
+font-size:16px;
+border-top-right-radius:10px;
+border-top-left-radius:10px;
+}
+
+.dropdown6:hover .dropdown-content6 {
+display: block;
+
+}
+
+.dropdown-content6 {
+display:none;
+text-decoration:none;
+color:black;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+max-width: 160px;
+min-width:160px;
+position: absolute;
+ 
+}
+
+.dropdown-content6 a:hidden {
+background-color: lightgreen;
+text-decoration: none;
+
+}
+
+.dropdown6 {
+position:relative;
+text-decoration:none;
+max-width:190px;
+display: inline-block;
+margin-bottom:0px;
+margin-top:50px;
+margin-left:0px;
+}
+
+.dropdown-content6 a {
+background-color: white;
+text-decoration: none;
+color:black;
+display: block;
+padding: 15px;
+margin-bottom:0px;
+ 
+}
+/************
+Seventh Button
+************/
+
+.dropdown7:hover .dropbtn7 {
+background-color: grey;
+color: black;
+}
+/*
+Same exact coding here as before with a:hover and dropdown-content
+*/
+.dropdown-content7 a:hover{
+background-color: grey;
+color: black;
+}
+
+
+.dropbtn7 {
+border:none;
+padding:15px;
+font-size:16px;
+border-top-right-radius:10px;
+border-top-left-radius:10px;
+}
+
+.dropdown7:hover .dropdown-content7 {
+display: block;
+
+}
+
+.dropdown-content7 {
+display:none;
+text-decoration:none;
+color:black;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+max-width: 160px;
+min-width:160px;
+position: absolute;
+ 
+}
+
+.dropdown-content7 a:hidden {
+background-color: lightgreen;
+text-decoration: none;
+
+}
+
+.dropdown7 {
+position:relative;
+text-decoration:none;
+max-width:190px;
+display: inline-block;
+margin-bottom:0px;
+margin-top:50px;
+margin-left:0px;
+}
+
+.dropdown-content7 a {
+background-color: white;
+text-decoration: none;
+color:black;
+display: block;
+padding: 15px;
+margin-bottom:0px;
+ 
+}
+.toggler {
+float: center;
+margin-top: 10px;
+margin-bottom: 15px;
+display: none;
+}
+@media screen and (max-width: 900px) {
+
+
+/***********
+First Button
+***********/
+/*
+Button Color change upon hover
+*/
+.dropdown:hover .dropbtn {
+background-color: grey;
+color: black;
+}
+/*
+Dropdown Content color change upon hover
+*/
+/*
+In a:hover, a is formatting for referring to the links inside of .dropdown-content and its easiest to format hover with a link
+*/
+.dropdown-content a:hover{
+background-color: grey;
+color: black;
+}
+/*
+border radius makes corners round
+*/
+.dropbtn {
+border:none;
+padding:10px;
+font-size:10px;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+
+}
+
+.dropdown-content {
+display:none;
+text-decoration:none;
+color:black;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+max-width: 150px;
+min-width:150px;
+position: absolute;
+ 
+}
+
+.dropdown-content a:hidden {
+background-color: lightgreen;
+text-decoration: none;
+
+}
+
+
+.dropdown {
+position:relative;
+text-decoration:none;
+max-width:150px0px;
+display: inline-block;
+margin-bottom:0px;
+margin-top:50px;
+margin-left:0%;
+margin-right:0px;
+}
+
+.dropdown-content a {
+background-color: white;
+text-decoration: none;
+color:black;
+display: block;
+padding: 10px;
+margin-bottom:0px;
+}
+
+/************
+Second Button
+************/
+
+.dropdown2:hover .dropbtn2 {
+background-color: grey;
+color: black;
+}
+/*
+Same exact coding here as before with a:hover and dropdown-content
+*/
+.dropdown-content2 a:hover{
+background-color: grey;
+color: black;
+}
+
+
+.dropbtn2 {
+border:none;
+padding:10px;
+font-size:10px;
+border-top-right-radius:5px;
+border-top-left-radius:5px;
+
+}
+
+.dropdown2:hover .dropdown-content2 {
+display: block;
+
+}
+
+.dropdown-content2 {
+display:none;
+text-decoration:none;
+color:black;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+max-width: 150px;
+min-width:150px;
+position: absolute;
+ 
+}
+
+.dropdown-content2 a:hidden {
+background-color: lightgreen;
+text-decoration: none;
+
+}
+
+.dropdown2 {
+position:relative;
+text-decoration:none;
+max-width:150px;
+display: inline-block;
+margin-bottom:0px;
+margin-top:50px;
+margin-left:0px;
+}
+
+.dropdown-content2 a {
+background-color: white;
+text-decoration: none;
+color:black;
+display: block;
+padding: 10px;
+margin-bottom:0px;
+ 
+}
+
+/***********
+Third Button
+***********/
+
+.dropdown3:hover .dropbtn3 {
+background-color: grey;
+color: black;
+}
+/*
+Same exact coding here as before with a:hover and dropdown-content
+*/
+.dropdown-content3 a:hover{
+background-color: grey;
+color: black;
+}
+
+
+.dropbtn3 {
+border:none;
+padding:10px;
+font-size:10px;
+border-top-right-radius:5px;
+border-top-left-radius:5px;
+}
+
+.dropdown3:hover .dropdown-content3 {
+display: block;
+
+}
+
+.dropdown-content3 {
+display:none;
+text-decoration:none;
+color:black;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+max-width: 150px;
+min-width:150px;
+position: absolute;
+ 
+}
+
+.dropdown-content3 a:hidden {
+background-color: lightgreen;
+text-decoration: none;
+
+}
+
+.dropdown3 {
+position:relative;
+text-decoration:none;
+max-width:190px;
+display: inline-block;
+margin-bottom:0px;
+margin-top:50px;
+margin-left:0px;
+}
+
+.dropdown-content3 a {
+background-color: white;
+text-decoration: none;
+color:black;
+display: block;
+padding: 10px;
+margin-bottom:0px;
+ 
+}
+
+
+/************
+Sixth Button
+************/
+
+.dropdown6:hover .dropbtn6 {
+background-color: grey;
+color: black;
+}
+/*
+Same exact coding here as before with a:hover and dropdown-content
+*/
+.dropdown-content6 a:hover{
+background-color: grey;
+color: black;
+}
+
+
+.dropbtn6 {
+border:none;
+padding:10px;
+font-size:10px;
+border-top-right-radius:5px;
+border-top-left-radius:5px;
+}
+
+.dropdown6:hover .dropdown-content6 {
+display: block;
+
+}
+
+.dropdown-content6 {
+display:none;
+text-decoration:none;
+color:black;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+max-width: 150px;
+min-width:150px;
+position: absolute;
+ 
+}
+
+.dropdown-content6 a:hidden {
+background-color: lightgreen;
+text-decoration: none;
+
+}
+
+.dropdown6 {
+position:relative;
+text-decoration:none;
+max-width:190px;
+display: inline-block;
+margin-bottom:0px;
+margin-top:50px;
+margin-left:0px;
+}
+
+.dropdown-content6 a {
+background-color: white;
+text-decoration: none;
+color:black;
+display: block;
+padding: 10px;
+margin-bottom:0px;
+ 
+}
+/************
+Seventh Button
+************/
+
+.dropdown7:hover .dropbtn7 {
+background-color: grey;
+color: black;
+}
+/*
+Same exact coding here as before with a:hover and dropdown-content
+*/
+.dropdown-content7 a:hover{
+background-color: grey;
+color: black;
+}
+
+
+.dropbtn7 {
+border:none;
+padding:10px;
+font-size:10px;
+border-top-right-radius:5px;
+border-top-left-radius:5px;
+}
+
+.dropdown7:hover .dropdown-content7 {
+display: block;
+
+}
+
+.dropdown-content7 {
+display:none;
+text-decoration:none;
+color:black;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+max-width: 150px;
+min-width:150px;
+position: absolute;
+ 
+}
+
+.dropdown-content7 a:hidden {
+background-color: lightgreen;
+text-decoration: none;
+
+}
+
+.dropdown7 {
+position:relative;
+text-decoration:none;
+max-width:190px;
+display: inline-block;
+margin-bottom:0px;
+margin-top:50px;
+margin-left:0px;
+}
+
+.dropdown-content7 a {
+background-color: white;
+text-decoration: none;
+color:black;
+display: block;
+padding: 10px;
+margin-bottom:0px;
+ 
+}
+}
+@media screen and (max-width: 600px) {
+.toggler {
+display: block;
+}
+
+/***********
+First Button
+***********/
+
+.dropbtn {
+padding:0px;
+font-size:0px;
+border-top-left-radius:0px;
+border-top-right-radius:0px;
+}
+
+.dropdown-content {
+max-width: 0px;
+min-width:0px;
+ 
+}
+
+.dropdown {
+max-width:0px;
+margin-bottom:0px;
+margin-top:0px;
+margin-left:0%;
+margin-right:0px;
+}
+
+.dropdown-content a {
+padding: 0px;
+margin-bottom:0px;
+}
+
+/************
+Second Button
+************/
+
+.dropbtn2 {
+padding:0px;
+font-size:0px;
+border-top-right-radius:0px;
+border-top-left-radius:0px;
+
+}
+
+.dropdown-content2 {
+max-width: 0px;
+min-width:0px;
+
+ 
+}
+
+.dropdown2 {
+max-width:0px;
+margin-bottom:0px;
+margin-top:0px;
+margin-left:0px;
+}
+
+.dropdown-content2 a {
+padding: 0px;
+margin-bottom:0px;
+ 
+}
+
+/***********
+Third Button
+***********/
+
+.dropbtn3 {
+padding:0px;
+font-size:0px;
+border-top-right-radius:0px;
+border-top-left-radius:0px;
+}
+
+.dropdown-content3 {
+max-width: 0px;
+min-width:0px;
+
+ 
+}
+
+.dropdown3 {
+max-width:0px;
+margin-bottom:0px;
+margin-top:0px;
+margin-left:0px;
+}
+
+.dropdown-content3 a {
+padding: 0px;
+margin-bottom:0px;
+ 
+}
+
+
+/************
+Sixth Button
+************/
+
+.dropbtn6 {
+padding:0px;
+font-size:0px;
+border-top-right-radius:0px;
+border-top-left-radius:0px;
+}
+
+.dropdown-content6 {
+max-width: 0px;
+min-width:0px;
+
+ 
+}
+
+.dropdown6 {
+max-width:0px;
+margin-bottom:0px;
+margin-top:0px;
+margin-left:0px;
+}
+
+.dropdown-content6 a {
+padding: 0px;
+margin-bottom:0px;
+ 
+}
+/************
+Seventh Button
+************/
+
+.dropbtn7 {
+border:none;
+padding:0px;
+font-size:0px;
+border-top-right-radius:0px;
+border-top-left-radius:0px;
+}
+
+.dropdown-content7 {
+max-width: 0px;
+min-width:0px;
+ 
+}
+
+.dropdown7 {
+max-width:0px;
+margin-top:0px;
+margin-left:0px;
+}
+
+.dropdown-content7 a {
+padding: 0px;
+}
+}

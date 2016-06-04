@@ -1,0 +1,37 @@
+
+/* 2nd demo specific CSS */
+#dynamicfuturedate .ddcubecountdown{
+	display: block; /* display each cube on its own line */
+	margin-bottom: 5px;
+	font-size: 4px; /* adjust font size to scale up/down the cubes (default is 10px) */
+}
+
+.Countdown{
+margin-top: -80px;
+float: right; 
+margin-right: 40px;
+}
+@media screen and (max-width: 1150px) {
+.Countdown{
+margin-top: -120px;
+float: right; 
+margin-right: 10px;
+}
+}
+@media screen and (max-width: 900px) {
+.Countdown{
+margin-top: -70px;
+float: right; 
+margin-right: 10px;
+}
+}
+
+@media screen and (max-width: 790px) {
+.Countdown{
+display: none;
+}
+}
+
+#dynamicfuturedate ul li{
+	background: darkred;
+}
